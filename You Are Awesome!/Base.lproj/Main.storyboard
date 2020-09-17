@@ -24,7 +24,7 @@
                                 <color key="textColor" red="0.2654377140410959" green="0.8644344945301371" blue="0.77626575104657536" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1" translatesAutoresizingMaskIntoConstraints="NO" id="k3S-Lv-C3q">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k3S-Lv-C3q">
                                 <rect key="frame" x="20" y="224" width="374" height="624"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1l-ec-fes">
@@ -54,6 +54,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="awesomeImageView" destination="k3S-Lv-C3q" id="OJA-gz-ymV"/>
                         <outlet property="messageLabel" destination="lqf-bI-iAd" id="Z3b-If-01c"/>
                     </connections>
                 </viewController>
@@ -62,7 +63,4 @@
             <point key="canvasLocation" x="-60.869565217391312" y="96.428571428571431"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="img1" width="318" height="159"/>
-    </resources>
 </document>
